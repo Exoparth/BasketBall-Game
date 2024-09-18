@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url("./backgroundBB.webp"); */
+  background-repeat: no-repeat;
+  /* width: 100vw; */
+  image-resolution: 100px 1000px;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: linear-gradient(to right bottom,
+  gray,
+  white,
+  gray); */
+}
+body > main {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+}
+body>main>img{
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+}
+body > main > div {
+  border: 2px solid white;
+  height: 160px;
+  width: 250px;
+  text-align: center;
+  /* margin-bottom: 1rem; */
+  /* background-image: linear-gradient(
+    to right bottom,
+    rgb(199, 142, 29),
+    rgb(211, 211, 166),
+    rgb(205, 119, 44)
+  ); */
+  /* background-image: url("./63689d5d84fbd128252aca13-standard-outdoor-sports-basketball-net.jpg"); */
+}
+
+main > div > h1 {
+  margin-bottom: 1rem;
+  color: white;
+}
+main > div > h2 {
+  margin-top: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+main > div > button {
+  color: white;
+  background-color: gray;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+main > div > button:active {
+  background-color: red;
+  color: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main > button {
+  position: absolute;
+  height: 40px;
+  top: 415px;
+  width: 10%;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main > button:active {
+  background-color: red;
+  color: white;
+}
